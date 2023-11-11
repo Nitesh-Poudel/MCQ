@@ -1,0 +1,48 @@
+.container{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    background: linear-gradient(45deg,rgb(93, 19, 19),rgb(0, 81, 255));
+}
+
+.container .card{
+    margin-top: 50px;
+    width:400px;
+    height: 500px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow:  10px 10px 50px rgb(5, 5, 5);
+    padding:20px;
+    display:flex;
+    
+    flex-direction: column;
+ 
+
+}
+.card .questionSection{
+    text-align: center;
+    border-bottom: 3px solid rgb(134, 133, 133);
+    border: 1px solid rgb(247, 20, 20);
+}
+
+.container ul li{
+    padding:15px;
+    margin: 15px;
+}
+.container .options{
+    border: 1px solid rgb(17, 255, 0);;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.container .options .option{
+    
+    border: 1px solid red;
+    color:brown;
+    font-size: 22px;
+    background-color: rgb(255, 255, 240);
+   
+    width:100%;
+}
